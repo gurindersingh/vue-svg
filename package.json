@@ -17,9 +17,9 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "pack": "vue-cli-service build --target lib --name VueSvg ./src/components/SVG.vue"
+    "pack": "vue-cli-service build --target lib --name VueSvg ./src/components/svg.vue"
   },
-  "main": "./dist/VueSvg.common.js",
+  "main": "src/components/svg.vue",
   "files": [
     "dist/*.js",
     "dist/*.js.map",
